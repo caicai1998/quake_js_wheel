@@ -1,0 +1,63 @@
+{
+  "name": "@caijx/quake_js_wheel",
+  "version": "0.0.1",
+  "description": "A js wheel for quake",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rm -rf ./lib/",
+    "cm": "cz",
+    "lint": "eslint ./src/ --fix",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caicai1998/quake_js_wheel.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "caijx",
+    "email": "275269096@qq.com"
+  },
+  "engines": {
+    "node": ">=12.0"
+  },
+  "keywords": [
+    "boilerplate",
+    "template",
+    "typescript",
+    "vscode",
+    "jest",
+    "husky",
+    "commitizen",
+    "semantic-release",
+    "codecov"
+  ],
+  "bugs": {
+    "url": "https://github.com/caicai1998/quake_js_wheel/issues"
+  },
+  "homepage": "https://github.com/caicai1998/quake_js_wheel.git",
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^12.20.11",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.2.0",
+    "prettier": "^2.2.1",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
