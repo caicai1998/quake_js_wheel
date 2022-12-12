@@ -1,5 +1,5 @@
 {
-  "name": "@caijx/quake_js_wheel",
+  "name": "@caijx/quake_js",
   "version": "0.0.1",
   "description": "A js wheel for quake",
   "main": "./lib/index.js",
